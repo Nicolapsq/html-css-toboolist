@@ -2,12 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-style: italic;
+}
+
+body{
+    background-color: lightgray;
 }
 
 /*************header***********/
 
 header{
-    background-color: aquamarine;
-    padding: 30px 0;
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+    font-size: 4rem;
 
+}
+
+.container{
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding-bottom: 100%;
+    border-radius: 1%;
 }
