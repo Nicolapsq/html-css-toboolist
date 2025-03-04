@@ -26,20 +26,46 @@ body{
 
 .simbolo{
     border-radius: 50%;
-    border: 1px solid green;
     text-align: center;
-    color: green;
 }
 
-.cella-azzurra{
+.green{
+    color: green;
+    border: 1px solid green;
+}
+
+.red{
+    color: red;
+    border: 1px solid red;
+}
+
+.cella{
     display: inline-block;
-    background-color: darkcyan;
     width: 100px;
     height: 50px;
     text-align: center;
     line-height: 50px;
     border-radius: 25%;
 }
+
+.darkcyan{
+    background-color: darkcyan;
+}
+
+.viola{
+    background-color: violet;
+}
+
+.lightgreen{
+    background-color: lightgreen;
+}
+
+.orange{
+    background-color: orange;
+}
+
+
+
 /*************header***********/
 
 header{
